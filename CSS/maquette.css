@@ -1,10 +1,5 @@
 @CHARSET "UTF-8";
 
-div.img_bulle {
-	position: relative;
-	top: -50px;
-	left: 1025px;
-}
 
 div.img_acceuil {
 	position: relative;
@@ -20,6 +15,21 @@ div.img {
 	width: 500px;
 }
 
+div.img2 {
+	position: relative;
+	top: 30px;
+	left: 150px;
+	width: 500px;
+}
+
+div.img3 {
+	position: relative;
+	top: -40px;
+	left: 150px;
+	width: 500px;
+}
+
+
 td.menu {
 	text-align : center;
 	border-width: 5px;
@@ -31,21 +41,6 @@ td.menu {
     font-size : 25px;
 }
 
-.element
-{
-    margin: auto;
-    
-}
-.element2
-{
-    margin: auto;
-}
-
-.element3
-{
-    margin: auto;
-    
-}
 
 h5.lower1 {
 	color : white;
@@ -58,11 +53,152 @@ h5.lower2 {
 
 h1.titre {
 	color : green;
-	font-size : 45px;
-	margin: -130px;
+	font-size : 75px;
+	margin: 0px;
 }
 
 
+div.produit{
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:left;
+	background-image: url(http://localhost/PPE_GEEKZONE/img/3LnbfWi.png) no-repeat center fixed; 
+  	background-size: cover;
+}
+
+
+
+
+p.cuisine{
+	justify-content:left;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+p.cuisine1{
+	
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+
+p.topvente{
+	position:absolute;
+	right:50%;
+	left:40%;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+
+p.gadget{
+	position:absolute;
+	left: 83%;
+	justify-content:right;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	
+}
+p.gadget1{
+	position:absolute;
+	left: 80%;
+	justify-content:right;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	
+}
+p.gadget2{
+	position:absolute;
+	left: 80%;
+	justify-content:right;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	
+}
+
+p.mode{
+	justify-content:left;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	
+}
+
+p.portable{
+	position:absolute;
+	right:50%;
+	left:40%;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+
+
+p.usb{
+	position:absolute;
+	left: 83%;
+	justify-content:right;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	
+}
+
+
+div.boutiques{
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:left;
+}
+
+p.topvente1{
+	position:absolute;
+	right:20%;
+	left:57%;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+
+p.topvente2{
+	position:absolute;
+	right:25%;
+	left:32%;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
+
+p.topvente3{
+	position:absolute;
+	right:20%;
+	left:44%;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+}
 
 
 
@@ -84,6 +220,7 @@ body {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 	background: #000;
+
 }
 
 h2 {
@@ -150,13 +287,8 @@ a {
 	-ms-transition: background-position 1.4s  cubic-bezier(.49,.22,.52,1.35);
 	-o-transition: background-position 1.4s  cubic-bezier(.49,.22,.52,1.35);
 	transition: background-position 1.4s  cubic-bezier(.49,.22,.52,1.35);
+	
 }
-
-#slide1 { background: url(images/slide1-bg.jpg) center 0 no-repeat fixed; }
-#slide2 { background: url(images/slide2-bg.jpg) center 0 no-repeat fixed; }
-#slide3 { background: url(images/slide3-bg.jpg) center 0 no-repeat fixed; }
-#slide4 { background: url(images/slide4-bg.jpg) center 0 no-repeat fixed; }
-#slide5 { background: url(images/slide5-bg.jpg) center 0 no-repeat fixed; }
 
 
 /* Slides contents */
@@ -166,6 +298,8 @@ a {
 	position: relative;
 	background-color: rgba(0, 0, 0, .6);
 	padding: 50px;
+	
+	
 }
 
 #slide1 .slide_inside {
@@ -176,20 +310,57 @@ a {
 	width: 500px;
 	text-align: justify;
 }
-#slide3 .slide_inside {
+#slide3 .slide_inside p {
 	margin-top: 50px;
 }
-#slide4 .slide_inside {
+#slide4 .slide_inside p {
 	margin-top: 50px;
 }
-#slide5 .slide_inside {
+#slide5 .slide_inside p {
 	margin-top: 50px;
 }
 
 
-/* Troopers & clone */
+#slide1 {
+	background: url(../img/sw2.png);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
+#slide2 {
+	background: url(../img/sw2.png);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
+#slide3 {
+	background: url(../img/mario2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
+#slide4 {
+	background: url(../img/pokemon.jpg);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
+#slide5 {
+	background: url(../img/sw2.png);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
 
-#trooper, #clone {
+
+
+
+#clone, #mario, #reptincel {
 	position: absolute;
 	left:-180px; top: 300px;
 	-webkit-transform: rotate(10deg);
@@ -207,57 +378,73 @@ a {
 	left: -280px;
 	top: 400px;
 }
+#mario {
+	width : 30%;
+}
+#reptincel {
+	width : 30%;
+}
+
+
 
 
 /* targeted elements */
 
 #s1:target ~ #wrap { top:0px; }
-#s1:target ~ #wrap #nav li:first-child a { text-shadow: 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603; }
+#s1:target ~ #wrap #nav li:nth-child(1) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s1:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s1:target ~ #wrap #slide2 { background-position: 50% -25%; }
 #s1:target ~ #wrap #slide3 { background-position: 50% -50%; }
 #s1:target ~ #wrap #slide4 { background-position: 50% -65%; }
 #s1:target ~ #wrap #slide5 { background-position: 50% -80%; }
-#s1:target ~ #wrap #trooper { left: -180px; top: 300px; -webkit-transform: rotate(10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
 #s1:target ~ #wrap #clone { left: -280px; top: 300px;-webkit-transform: rotate(10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
+#s1:target ~ #wrap #mario { left:-280px;top: 300px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
+#s1:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
+
 
 #s2:target ~ #wrap { top:-1150px; }
-#s2:target ~ #wrap #nav li:first-child + li a { text-shadow: 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603; }
+#s2:target ~ #wrap #nav li:nth-child(2) a { text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s2:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s2:target ~ #wrap #slide2 { background-position: 50% -25%; }
 #s2:target ~ #wrap #slide3 { background-position: 50% -50%; }
 #s2:target ~ #wrap #slide4 { background-position: 50% -65%; }
 #s2:target ~ #wrap #slide5 { background-position: 50% -80%; }
-#s2:target ~ #wrap #trooper { left: -180px; top: -100px; -webkit-transform: rotate(-7deg);-moz-transform: rotate(-7deg);-ms-transform: rotate(-7deg);-o-transform: rotate(-7deg);transform: rotate(-7deg); }
 #s2:target ~ #wrap #clone { left: -350px; top: 50px; -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg);transform: rotate(0deg); }
+#s2:target ~ #wrap #mario { left:-280px;top: 300px;-webkit-transform: rotate(7deg);-moz-transform: rotate(7deg);-ms-transform: rotate(7deg);-o-transform: rotate(7deg);transform: rotate(7deg); }
+#s2:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(7deg);-moz-transform: rotate(7deg);-ms-transform: rotate(7deg);-o-transform: rotate(7deg);transform: rotate(7deg); }
 
 
-#s3:target ~ #wrap { top:-2300px; }
-#s3:target ~ #wrap #nav li:last-child a { text-shadow: 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603; }
+#s3:target ~ #wrap { top:-2245px; }
+#s3:target ~ #wrap #nav li:nth-child(3) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s3:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s3:target ~ #wrap #slide2 { background-position: 50% -25%; }
 #s3:target ~ #wrap #slide3 { background-position: 50% -50%; }
 #s3:target ~ #wrap #slide4 { background-position: 50% -65%; }
 #s3:target ~ #wrap #slide5 { background-position: 50% -80%; }
-#s3:target ~ #wrap #trooper { left:-1500px;top:-1000px;-webkit-transform:rotate(-15deg);-moz-transform:rotate(-15deg);-ms-transform:rotate(-15deg);-o-transform:rotate(-15deg);transform: rotate(-15deg); }
 #s3:target ~ #wrap #clone { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s3:target ~ #wrap #mario { left:-350px;top: 50px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s3:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
-#s4:target ~ #wrap { top:-3400px; }
-#s4:target ~ #wrap #nav li:last-child a { text-shadow: 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603; }
+
+#s4:target ~ #wrap { top:-3330px; }
+#s4:target ~ #wrap #nav li:nth-child(4) a { text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s4:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s4:target ~ #wrap #slide2 { background-position: 50% -25%; }
 #s4:target ~ #wrap #slide3 { background-position: 50% -50%; }
 #s4:target ~ #wrap #slide4 { background-position: 50% -65%; }
 #s4:target ~ #wrap #slide5 { background-position: 50% -80%; }
-#s4:target ~ #wrap #trooper { left:-1500px;top:-1000px;-webkit-transform:rotate(-15deg);-moz-transform:rotate(-15deg);-ms-transform:rotate(-15deg);-o-transform:rotate(-15deg);transform: rotate(-15deg); }
 #s4:target ~ #wrap #clone { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s4:target ~ #wrap #mario { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s4:target ~ #wrap #reptincel { left:-350px;top: 50px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
-#s5:target ~ #wrap { top:-4500px; }
-#s5:target ~ #wrap #nav li:last-child a { text-shadow: 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603, 0 0 5px #eca603; }
+
+#s5:target ~ #wrap { top:-4415px; }
+#s5:target ~ #wrap #nav li:nth-child(5) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s5:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s5:target ~ #wrap #slide2 { background-position: 50% -25%; }
 #s5:target ~ #wrap #slide3 { background-position: 50% -50%; }
 #s5:target ~ #wrap #slide4 { background-position: 50% -65%; }
 #s5:target ~ #wrap #slide5 { background-position: 50% -80%; }
-#s5:target ~ #wrap #trooper { left:-1500px;top:-1000px;-webkit-transform:rotate(-15deg);-moz-transform:rotate(-15deg);-ms-transform:rotate(-15deg);-o-transform:rotate(-15deg);transform: rotate(-15deg); }
 #s5:target ~ #wrap #clone { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s5:target ~ #wrap #mario { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s5:target ~ #wrap #reptincel { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }

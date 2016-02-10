@@ -8,6 +8,7 @@
 <body >
 	
 	
+	
 	<!-- éléments cachés pour jouer avec :target -->
 <span id="s1"></span>
 <span id="s2"></span>
@@ -20,56 +21,67 @@
  
 	<!-- La navigation -->
 	<ul id="nav">
-		<li><a href="#s1">Acceuil</a></li>
+		<li><a href="#s1">Accueil</a></li>
 		<li><a href="#s2">Produits</a></li>
-		<li><a href="#s3">Boutique</a></li>
+		<li><a href="#s3">Boutiques</a></li>
 		<li><a href="#s4">Informations</a></li>
 		<li><a href="#s5">Problemes/SAV</a></li>
 	</ul>
  
 	<!-- La slide 1 -->
-	<div id="slide1">
-		<div class = "img_bulle"><img src="img/bulle.png" alt="GeekZone"></div> 
+	<div id="slide1"> 
 		<div class="slide_inside">
 			<!-- Le logo -->
 			<h1 class = "titre">GeekZone</h1>
 		</div> <!-- /.slide_inside-->	
-		<div class = "img_acceuil"><img src="img/acceuil2.png" alt="GeekZone"></div> 	
+	
 	</div> <!-- /#slide1 -->
  
 	<!-- La slide 2 -->
 	<div id="slide2">
+	
+	
 		<div class="slide_inside">
 			<!-- Les deux éléments en 1er plan -->
 			<!-- Mettez ici les images que vous voulez  :)  --> 
+			<img src="img/clone.png" id="clone" alt="">
 			<h2>Produits</h2>
-			<p></p>
+			<?php include 'inc/produits.inc.php';?>
+			<p><img src="img/clone.png" id="clone" alt=""></p>
 		</div> <!-- /.slide_inside-->
-		<div class = "img"><img src="img/acceuil2.png" alt="GeekZone"></div> 		     	
+		     	
 	</div> <!-- /#slide2 -->
  	
 	<!-- La slide 3 -->
 	<div id="slide3">
 		<div class="slide_inside">			
-			<h2>Boutiques</h2>		
+			<h2>Boutiques</h2>
+			<?php include 'inc/boutique.inc.php';?>	
+			<p><img src="img/mario.png" id="mario" alt=""></p>
+				
 		</div> <!-- /.slide_inside-->
-		<div class = "img"><img src="img/acceuil2.png" alt="GeekZone"></div> 		    
+ 
 	</div> <!--  /#slide3 -->
 	
 	<!-- La slide 4 -->
 	<div id="slide4">
+		
 		<div class="slide_inside">			
-			<h2>Informations</h2>		
+			<h2>Informations</h2>
+			<p><img src="img/reptincel.png" id="reptincel" alt=""></p>	
+			<?php include 'inc/info.inc.php';?>	
 		</div> <!-- /.slide_inside-->
-		<div class = "img"><img src="img/acceuil2.png" alt="GeekZone"></div> 		    
+	    
 	</div> <!--  /#slide4 -->
 	
 	<!-- La slide 5 -->
 	<div id="slide5">
 		<div class="slide_inside">			
-			<h2>Probleme/SAV</h2>		
+			<h2>Probleme/SAV</h2>
+			
+			<?php include 'inc/sav.inc.php';?>			
 		</div> <!-- /.slide_inside-->	
-		<div class = "img"><img src="img/acceuil2.png" alt="GeekZone"></div>    
+
 	</div> <!--  /#slide5 -->
 	 	
 </div>
