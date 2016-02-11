@@ -32,7 +32,9 @@
 	<div id="slide1"> 
 		<div class="slide_inside">
 			<!-- Le logo -->
+			<div class = "bulle"><img src="img/bulle.png" id="" alt="GeekZone"></div>
 			<h1 class = "titre">GeekZone</h1>
+			
 		</div> <!-- /.slide_inside-->	
 	
 	</div> <!-- /#slide1 -->
@@ -56,11 +58,11 @@
 	<div id="slide3">
 		<div class="slide_inside">			
 			<h2>Boutiques</h2>
-			<?php include 'inc/boutique.inc.php';?>	
+			
 			<p><img src="img/mario.png" id="mario" alt=""></p>
-				
+			 <?php include 'inc/boutique.inc.php';?>		
 		</div> <!-- /.slide_inside-->
- 
+
 	</div> <!--  /#slide3 -->
 	
 	<!-- La slide 4 -->
@@ -78,7 +80,7 @@
 	<div id="slide5">
 		<div class="slide_inside">			
 			<h2>Probleme/SAV</h2>
-			
+			<p><img src="img/goku.png" id="goku" alt=""></p>
 			<?php include 'inc/sav.inc.php';?>			
 		</div> <!-- /.slide_inside-->	
 
