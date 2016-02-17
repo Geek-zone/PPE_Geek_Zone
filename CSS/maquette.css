@@ -60,7 +60,7 @@ h5.lower2 {
 h1.titre {
 	color : green;
 	font-size : 75px;
-	margin: 100px;	
+	margin: -200px;	
 }
 
 
@@ -387,7 +387,7 @@ a {
 	width : 30%;
 }
 #reptincel {
-	width : 30%;
+	width : 60%;
 }
 #goku {
 	width : 25%;
@@ -430,7 +430,7 @@ a {
 #s3:target ~ #wrap #slide4 { background-position: 50% -25%; }
 #s3:target ~ #wrap #slide5 { background-position: 50% -25%; }
 #s3:target ~ #wrap #clone { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
-#s3:target ~ #wrap #mario { left:-350px;top: 50px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s3:target ~ #wrap #mario { left:-350px;top: 50px;-webkit-transform: rotate(-5deg);-moz-transform: rotate(-5deg);-ms-transform: rotate(-5deg);-o-transform: rotate(-5deg);transform: rotate(-5deg); }
 #s3:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 #s3:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
@@ -443,7 +443,7 @@ a {
 #s4:target ~ #wrap #slide5 { background-position: 50% -25%; }
 #s4:target ~ #wrap #clone { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 #s4:target ~ #wrap #mario { left:-1000px;top: -800px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
-#s4:target ~ #wrap #reptincel { left:-350px;top: 50px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
+#s4:target ~ #wrap #reptincel { left:-480px;top: 50px;-webkit-transform: rotate(-5deg);-moz-transform: rotate(-5deg);-ms-transform: rotate(-5deg);-o-transform: rotate(-5deg);transform: rotate(-5deg); }
 #s4:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
 #s5:target ~ #wrap { top:-4450px; }

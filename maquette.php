@@ -70,7 +70,7 @@
 		
 		<div class="slide_inside">			
 			<h2>Informations</h2>
-			<p><img src="img/reptincel.png" id="reptincel" alt=""></p>	
+			<p><img src="img/giphy.gif" id="reptincel" alt=""></p>	
 			<?php include 'inc/info.inc.php';?>	
 		</div> <!-- /.slide_inside-->
 	    
