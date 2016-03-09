@@ -9,15 +9,15 @@
 <br/><br/><br/><br/><br/>
 
 <div id="produit" class="produit">
-<p class="cuisine"><a href="cuisine.html">Cuisine</a></p>
-<p class="topvente"><a href="topvente.html">Top Ventes</a></p>
-<p class="gadget"><a href="gadgets.html">Gadgets</a></p>
+<p class="cuisine"><a href="Produits/cuisine.php">Cuisine</a></p>
+<p class="topvente"><a href="Produits/topvente.php">Top Ventes</a></p>
+<p class="gadget"><a href="Produits/gadgets.php">Gadgets</a></p>
 </div>
 <br/><br/><br/><br/><br/><br/><br/><br/>
 <div id="produit" class="produit">
-<p class="mode"><a href="mode.html">Mode</a></p>
-<p class="portable"><a href="portable.html">Portable</a></p>
-<p class="usb"><a href="USB.html">USB</a></p>
+<p class="mode"><a href="Produits/mode.php">Mode</a></p>
+<p class="portable"><a href="Produits/portable.php">Portable</a></p>
+<p class="usb"><a href="Produits/USB.php">USB</a></p>
 </div>
 
 

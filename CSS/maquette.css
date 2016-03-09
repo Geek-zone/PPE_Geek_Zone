@@ -207,6 +207,92 @@ p.topvente3{
 
 
 
+a span.albertville{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.annecy{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.chambery{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.valence{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.clermont{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.grenoble{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a span.lyon{
+     position:absolute;
+     left : 0%;
+     color:#008000;
+     background:rgba(0,0,0,.9);
+     padding: 5px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     opacity:0;                
+}
+
+a:hover span, a:focus span{
+	opacity:1;
+	background:#404144;
+    box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+
+
+
 
 
 
@@ -303,8 +389,7 @@ a {
 	position: relative;
 	background-color: rgba(0, 0, 0, .6);
 	padding: 50px;
-	
-	
+
 }
 
 #slide1 .slide_inside {
@@ -316,7 +401,7 @@ a {
 	text-align: justify;
 }
 #slide3 .slide_inside p {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 #slide4 .slide_inside p {
 	margin-top: 50px;
@@ -392,7 +477,6 @@ a {
 #goku {
 	width : 25%;
 }
-
 
 
 

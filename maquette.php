@@ -27,7 +27,7 @@
 		<li><a href="#s4">Informations</a></li>
 		<li><a href="#s5">Problemes/SAV</a></li>
 	</ul>
- 
+
 	<!-- La slide 1 -->
 	<div id="slide1"> 
 		<div class="slide_inside">
@@ -57,12 +57,11 @@
 	<!-- La slide 3 -->
 	<div id="slide3">
 		<div class="slide_inside">			
-			<h2>Boutiques</h2>
-			
+			<h2>Boutiques</h2>	
 			<p><img src="img/mario.png" id="mario" alt=""></p>
 			 <?php include 'inc/boutique.inc.php';?>		
 		</div> <!-- /.slide_inside-->
-
+		
 	</div> <!--  /#slide3 -->
 	
 	<!-- La slide 4 -->
