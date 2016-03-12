@@ -1,20 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GEEK ZONE</title>
-<link rel="stylesheet" type="text/css" media="screen" href="css/CSS.css" />
+<title>GeekZone</title>
+<link rel="stylesheet" type = "text/css" media="screen" href="css/maquette.css"/>
 </head>
-<body >
-<br/><br/><br/>
-<h1>Contacter le SAV :<a>  geekzone@gmail.com</a></h1>
-<br/><br/><br/><br/>
-<h1>R&eacuteclamations :</h1>
-<a>
-
+<body>
 
 <form action="inc/send_email.inc.php" method="post">
     <p>
-        <label for="civilite">Civilit&eacut :</label>
+        <label for="civilite">Civilité :</label>
         <select id="civilite" name="civilite">
             <option 
                 value="mr"
@@ -52,7 +47,7 @@
         </select>
     </p>
     <p>
-        <label for="nom">Nom/Pr&eacutnom :</label>
+        <label for="nom">Nom/Prénom :</label>
         <input type="text" id="nom" name="nom" 
         	value="<?php echo (isset($_POST['nom'])) ? $nom : '' ?>" 
         />
@@ -79,16 +74,6 @@
         <input type="submit" name="envoye" value="Envoyer" />
     </p>
 </form>
-
-
-
-
-
-
-
-</a>
-<br/><br/><br/><br/>
-<h1>Aidez nous &agrave am&eacuteliorer notre site :</h1>
-
+ 
 </body>
 </html>

@@ -220,7 +220,8 @@ a span.albertville{
 
 a span.annecy{
      position:absolute;
-     left : 0%;
+     left : -25%;
+     top : 100%
      color:#008000;
      background:rgba(0,0,0,.9);
      padding: 5px;
@@ -242,7 +243,8 @@ a span.chambery{
 
 a span.valence{
      position:absolute;
-     left : 0%;
+     left : -25%;
+     top : 100%;
      color:#008000;
      background:rgba(0,0,0,.9);
      padding: 5px;
@@ -253,7 +255,8 @@ a span.valence{
 
 a span.clermont{
      position:absolute;
-     left : 0%;
+     left : -25%;
+     top : 100%;
      color:#008000;
      background:rgba(0,0,0,.9);
      padding: 5px;
@@ -290,9 +293,14 @@ a:hover span, a:focus span{
     box-shadow:0 1px 0 rgba(255,255,255,.4);
 }
 
+a.sav {
+	font-size : 25px;
+}
 
-
-
+a.tsav {
+	font-size : 30px;
+	color : #b0b0b0;
+}
 
 
 
@@ -407,7 +415,7 @@ a {
 	margin-top: 50px;
 }
 #slide5 .slide_inside p {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 

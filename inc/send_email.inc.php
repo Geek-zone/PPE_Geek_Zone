@@ -79,7 +79,7 @@ if (isset($_POST['envoye']))
  
             /* On créé un cookie de courte durée (ici 120 secondes) pour éviter de 
             * renvoyer un mail en rafraichissant la page */
-            setcookie("sent", "1", time() + 120);
+            setcookie("sent", "1", time() + 30);
  
             /* On détruit la variable $_POST */
             unset($_POST);
@@ -101,7 +101,7 @@ if (isset($_POST['envoye']))
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="fr">
 <head>
-    <title>Contactez moi</title>
+    <title>GeekZone</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 </head>
 <body>
