@@ -5,7 +5,7 @@
 <title>GeekZone</title>
 <link rel="stylesheet" type = "text/css" media="screen" href="css/maquette.css"/>
 </head>
-<body >
+<body>
 	
 	
 	
@@ -32,7 +32,6 @@
 	<div id="slide1"> 
 		<div class="slide_inside">
 			<!-- Le logo -->
-			<div class = "bulle"><img src="img/bulle.png" id="" alt="GeekZone"></div>
 			<h1 class = "titre">GeekZone</h1>
 			
 		</div> <!-- /.slide_inside-->	

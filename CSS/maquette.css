@@ -207,111 +207,45 @@ p.topvente3{
 
 
 
-a span.albertville{
-     position:absolute;
-     left : 0%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
+a.ville{
+	font-size : 20px;
+	text-decoration : none;
 }
 
-a span.annecy{
-     position:absolute;
-     left : -25%;
-     top : 100%
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
+div.albertville {
+	font-size : 50px;
+	text-align : center;
+	color : #00e800;
 }
 
-a span.chambery{
-     position:absolute;
-     left : 0%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
+div.ville {
+	display:flex;
+	flex-direction:row;
+	align-items:left;
 }
 
-a span.valence{
-     position:absolute;
-     left : -25%;
-     top : 100%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
+td.c1 {
+	text-align : center;
+	border-width: 5px;
+ 	border-style: solid;
+	border-color: black;
+    border-radius: 300px;
+    width : 300px;
+    height : 30px;
+    font-size : 25px;
 }
 
-a span.clermont{
-     position:absolute;
-     left : -25%;
-     top : 100%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
-}
-
-a span.grenoble{
-     position:absolute;
-     left : 0%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
-}
-
-a span.lyon{
-     position:absolute;
-     left : 0%;
-     color:#008000;
-     background:rgba(0,0,0,.9);
-     padding: 5px;
-     border-radius:3px;
-     box-shadow:0 0 2px rgba(0,0,0,.5);
-     opacity:0;                
-}
-
-a:hover span, a:focus span{
-	opacity:1;
-	background:#404144;
-    box-shadow:0 1px 0 rgba(255,255,255,.4);
-}
-
-a.sav {
-	font-size : 25px;
-}
-
-a.tsav {
-	font-size : 30px;
-	color : #b0b0b0;
+a.boutique {
+	color : green;
+	font-size : 35px;
+	text-align : center;
 }
 
 
 
 
 
-
-
-
-
-
-body {
+body{
 	margin: 0;
 	padding: 0;
 	color:#fff;
@@ -455,6 +389,13 @@ a {
 	background-size : 100%;
 }
 
+#albertville {
+	background: url(../img/mario2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size : 100%;
+}
 
 
 

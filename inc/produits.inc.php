@@ -3,7 +3,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>GEEK ZONE</title>
-<link rel="stylesheet" type="text/css" media="screen" href="css/CSS.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/maquette.css" />
 </head>
 <body >
 <br/><br/><br/><br/><br/>
