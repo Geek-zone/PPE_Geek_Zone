@@ -21,6 +21,7 @@
 <div = "ville">
 	<div class = "albertville">Albertville</div>
 <br/><br/><br/><br/><br/><br/>
+
 	<?php
 
 
@@ -35,6 +36,7 @@ try {
 		$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $utilisateur, $mdp);
 		$bdd ->exec('SET NAMES utf8');
 		$reponse = $bdd -> query('SELECT * FROM boutique where id = 1');
+		echo '<div class = "boutique">';
 		echo '<table>';
 		while ($donnees = $reponse -> fetch()) {
 			echo '<tr>';
@@ -51,6 +53,7 @@ try {
 			echo '</tr>';
 		}
 		echo '</table>';
+		echo '</div>';
 		$reponse -> closeCursor();
 	} catch (Exception $erreur) {
 		die('Erreur : '. $erreur -> getMessage());
@@ -59,15 +62,6 @@ try {
 	
 	
 </div>
-
-
-
-
-
-
-
-
-
 
 
 </body>

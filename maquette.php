@@ -32,8 +32,10 @@
 	<div id="slide1"> 
 		<div class="slide_inside">
 			<!-- Le logo -->
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			<h1 class = "titre">GeekZone</h1>
-			
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			<?php include 'inc/menudefil.inc.php'?>
 		</div> <!-- /.slide_inside-->	
 	
 	</div> <!-- /#slide1 -->
@@ -87,3 +89,6 @@
 </div>
 </body>
 </html>
+
+
+
