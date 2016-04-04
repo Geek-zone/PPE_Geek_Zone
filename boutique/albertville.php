@@ -16,11 +16,16 @@
 </ul>
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 
 <div = "ville">
 	<div class = "albertville">Albertville</div>
-<br/><br/><br/><br/><br/><br/>
+<br/><br/>
+
+<div class = "img_bout">
+		<img src = "img/albertville.png" width = "250px" height = "250px">
+		<img src = "img/boutiques/boutique_albertville.jpg" width = "250px" height = "250px">		
+</div>
 
 	<?php
 
@@ -35,7 +40,7 @@ try {
 		$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 		$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $utilisateur, $mdp);
 		$bdd ->exec('SET NAMES utf8');
-		$reponse = $bdd -> query('SELECT * FROM boutique where id = 1');
+		$reponse = $bdd -> query('SELECT * FROM boutique where id = 5');
 		echo '<div class = "boutique">';
 		echo '<table>';
 		while ($donnees = $reponse -> fetch()) {

@@ -9,7 +9,7 @@
 
 <form action="inc/send_email.inc.php" method="post">
     <p>
-        <label for="civilite">Civilité :</label>
+        <label for="civilite">Civilit&eacute; :</label>
         <select id="civilite" name="civilite">
             <option 
                 value="mr"
@@ -47,7 +47,7 @@
         </select>
     </p>
     <p>
-        <label for="nom">Nom/Prénom :</label>
+        <label for="nom">Nom/Pr&eacute;nom :</label>
         <input type="text" id="nom" name="nom" 
         	value="<?php echo (isset($_POST['nom'])) ? $nom : '' ?>" 
         />
@@ -66,7 +66,7 @@
     </p>
     <p>
         <label for="message">Message :</label>
-        <textarea id="message" name="message" cols="40" rows="4">
+        <textarea id="message" autofocus="" name="message" cols="40" rows="4">
 			<?php echo (isset($_POST['message'])) ? $message : '' ?>
         </textarea>
     </p>
