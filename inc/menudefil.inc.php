@@ -122,9 +122,10 @@ else if ($choix==18){
 
 </figure><!--
 --><figure>
-<?php for ($k = 0; $k < 10000; ++$k) {
-	echo(aleatoire()); 
-}
+<?php 	
+	for($k = 0; $k < 10000; ++$k) {
+	echo(aleatoire());
+	}
 ?>
 				
 			</figure>

@@ -24,7 +24,7 @@
 
 <div class = "img_bout">
 		<img src = "img/clermont.png" width = "250px" height = "250px">
-		<img src = "img/boutiques/boutique_clermont.jpg" width = "250px" height = "250px">		
+		<img src = "img/boutiques/boutique_clermont.jpeg" width = "250px" height = "250px">		
 </div>
 
 	<?php

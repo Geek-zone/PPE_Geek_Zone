@@ -6,7 +6,7 @@
 <link rel="stylesheet" type = "text/css" media="screen" href="css/maquette.css"/>
 </head>
 <body>
-
+<br/><br/><br/>
 <form action="inc/send_email.inc.php" method="post">
     <p>
         <label for="civilite">Civilit&eacute; :</label>
@@ -46,26 +46,30 @@
             </option>
         </select>
     </p>
+ 	<br/>
     <p>
         <label for="nom">Nom/Pr&eacute;nom :</label>
         <input type="text" id="nom" name="nom" 
         	value="<?php echo (isset($_POST['nom'])) ? $nom : '' ?>" 
         />
     </p>
+    <br/>
     <p>
         <label for="email">E-mail :</label>
         <input type="text" id="email" name="email" 
         	value="<?php echo (isset($_POST['email'])) ? $expediteur : '' ?>"
         />
     </p>
+    <br/>
     <p>
         <label for="sujet">Sujet :</label>
         <input type="text" id="sujet" name="sujet" 
         	value="<?php echo (isset($_POST['sujet'])) ? $sujet : '' ?>"
         />
     </p>
+    <br/>
     <p>
-        <label for="message">Message :</label>
+        <label for="message">Message :</label><br/><br/>
         <textarea id="message" autofocus="" name="message" cols="40" rows="4">
 			<?php echo (isset($_POST['message'])) ? $message : '' ?>
         </textarea>

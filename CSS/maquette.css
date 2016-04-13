@@ -1,12 +1,6 @@
 @CHARSET "UTF-8";
 
 
-div.bulle {
-	position : relative;
-	top : -50px;
-	left : 1025px;
-}
-
 div.img_acceuil {
 	position: relative;
 	top: 310px;
@@ -251,6 +245,60 @@ div.boutique {
 	align-items:right;
 }
  
+a.lien {
+	text-decoration : none;
+}
+
+td.c4{
+	border:1px solid black;
+	width: 500px;
+	height:5px;
+	text-align:center;
+	font-size:25px;
+	color:green;
+	background-color:black;
+	font-weight : bold;
+}
+
+td.c2{
+	border:1px solid black;
+	width: 500px;
+	height:30px;
+	text-align:center;
+	font-size:15px;
+	color:green;
+	background-color:black;
+}
+
+td.c3 {
+	border:1px solid black;
+	width: 400px;
+	height:30px;
+	text-align:center;
+	font-size:40px;
+	color:green;
+	background-color:black;
+	
+}
+
+body.cuisine{
+	background:url(http://localhost/PPE_Geek_Zone/img/sw.jpg);
+	background-repeat:no-repeat; 
+	background-size : 100%;
+	background-position:center;
+}
+
+h1.cuisine {
+	text-align : center;
+	color : green;
+	font-size : 60px;
+}
+h1.cuisine2 {
+	text-align : center;
+	color : green;
+	font-size : 40px;
+}
+
 
 
 
@@ -483,7 +531,15 @@ div.img_bout {
 }
 
 
+a.nom {
+	font-size : 30px;
+	color : green;
+}
 
+a.prix {
+	font-size : 50px;
+	color : green;
+}
 
 
 
@@ -588,7 +644,7 @@ a {
 	width: 770px;
 	margin: 0 auto;
 	position: relative;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .79);
 	padding: 50px;
 
 }
