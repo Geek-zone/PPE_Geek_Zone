@@ -5,9 +5,10 @@
 <title>GeekZone</title>
 <link rel="stylesheet" type = "text/css" media="screen" href="css/maquette.css"/>
 </head>
-<body>
-	
-	
+
+<body><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
 	
 	<!-- éléments cachés pour jouer avec :target -->
 <span id="s1"></span>
@@ -34,6 +35,9 @@
 			<!-- Le logo -->
 			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			<h1 class = "titre">GeekZone</h1>
+			<video autoplay loop muted poster="screenshot.jpg" id="background">
+			<source src="http://localhost/PPE_Geek_Zone/img/StarWars.mp4" type="video/mp4">
+			</video>
 			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			<?php include 'inc/menudefil.inc.php'?>
 		</div> <!-- /.slide_inside-->	

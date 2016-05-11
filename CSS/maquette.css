@@ -548,8 +548,59 @@ a.prix {
 
 
 
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+.container h1 {
+    color: white;
+}
 
 
+
+
+a.info {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   border-bottom: 1px gray dotted; /* On souligne le texte. */
+}
+a.info span {
+   display: none; /* On masque l'infobulle. */
+}
+a.info:hover {
+   background: none; /* Correction d'un bug d'Internet Explorer. */
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+a.info:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+
+   white-space: nowrap; /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+
+   top: -20px; /* On positionne notre infobulle. */
+   left: 85px;
+
+   background: white;
+
+   color: green;
+   padding: 8px;
+
+   border: 1px solid green;
+   border-left: 4px solid green;
+}
 
 
 
@@ -669,7 +720,7 @@ a {
 
 
 #slide1 {
-	background : url(../img/sw2.png);
+	background : url(../img/watch.htm);
 	background-position : center 10;
 	background-repeat : no-repeat; 
 	background-attachment : fixed; 
@@ -746,7 +797,7 @@ a {
 
 /* targeted elements */
 
-#s1:target ~ #wrap { top:0px; }
+#s1:target ~ #wrap { top:-150px; }
 #s1:target ~ #wrap #nav li:nth-child(1) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s1:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s1:target ~ #wrap #slide2 { background-position: 50% -25%; }
@@ -758,7 +809,7 @@ a {
 #s1:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
 #s1:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(10deg);-ms-transform: rotate(10deg);-o-transform: rotate(10deg);transform: rotate(10deg); }
 
-#s2:target ~ #wrap { top:-1150px; }
+#s2:target ~ #wrap { top:-1300px; }
 #s2:target ~ #wrap #nav li:nth-child(2) a { text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s2:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s2:target ~ #wrap #slide2 { background-position: 50% -25%; }
@@ -770,7 +821,7 @@ a {
 #s2:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(7deg);-moz-transform: rotate(7deg);-ms-transform: rotate(7deg);-o-transform: rotate(7deg);transform: rotate(7deg); }
 #s2:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(7deg);-moz-transform: rotate(7deg);-ms-transform: rotate(7deg);-o-transform: rotate(7deg);transform: rotate(7deg); }
 
-#s3:target ~ #wrap { top:-2250px; }
+#s3:target ~ #wrap { top:-2400px; }
 #s3:target ~ #wrap #nav li:nth-child(3) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s3:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s3:target ~ #wrap #slide2 { background-position: 50% -25%; }
@@ -782,7 +833,7 @@ a {
 #s3:target ~ #wrap #reptincel { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 #s3:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
-#s4:target ~ #wrap { top:-3350px; }
+#s4:target ~ #wrap { top:-3500px; }
 #s4:target ~ #wrap #nav li:nth-child(4) a { text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s4:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s4:target ~ #wrap #slide2 { background-position: 50% -25%; }
@@ -794,7 +845,7 @@ a {
 #s4:target ~ #wrap #reptincel { left:-480px;top: 50px;-webkit-transform: rotate(-5deg);-moz-transform: rotate(-5deg);-ms-transform: rotate(-5deg);-o-transform: rotate(-5deg);transform: rotate(-5deg); }
 #s4:target ~ #wrap #goku { left:-280px;top: 300px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-ms-transform: rotate(-15deg);-o-transform: rotate(-15deg);transform: rotate(-15deg); }
 
-#s5:target ~ #wrap { top:-4450px; }
+#s5:target ~ #wrap { top:-4600px; }
 #s5:target ~ #wrap #nav li:nth-child(5) a{ text-shadow: 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800, 0 0 5px #00e800; }
 #s5:target ~ #wrap #slide1 { background-position: 50% 0%; }
 #s5:target ~ #wrap #slide2 { background-position: 50% -25%; }
